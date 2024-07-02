@@ -1,13 +1,13 @@
 import React, {ReactNode} from "react";
 
 // Style
-import "./PageContainer.style.css";
+import "./HomeContainer.style.css";
 
 interface PageContainerProps {
     children?: ReactNode
 }
 
-const PageContainer: React.FC<PageContainerProps> = ({ children }) => {
+const HomeContainer: React.FC<PageContainerProps> = ({ children }) => {
     return(
         <div className="page-container">
             {children}
@@ -15,4 +15,4 @@ const PageContainer: React.FC<PageContainerProps> = ({ children }) => {
     );
 }
 
-export default PageContainer;
+export default HomeContainer;

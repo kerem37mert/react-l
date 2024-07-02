@@ -1,14 +1,14 @@
 import React from "react";
 
 // Components
-import PageContainer from "../../components/PageContainer";
+import HomeContainer from "../../components/HomeContainer";
 import Starter from "../../components/Starter";
 
 const Home: React.FC = () => {
     return(
-        <PageContainer>
+        <HomeContainer>
             <Starter />
-        </PageContainer>
+        </HomeContainer>
     );
 }
 
