@@ -1,0 +1,29 @@
+.starter-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.starter-title {
+    background-color: #99f4ff;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+.starter-button {
+    background-color: #0080ff;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.starter-button:hover {
+    transition: 5s;
+    background-color: red;
+}

@@ -1,11 +1,16 @@
 import React from "react";
 
-const Home = () => {
+// Components
+import PageContainer from "../../components/PageContainer";
+import Starter from "../../components/Starter";
+
+const Home: React.FC = () => {
     return(
-        <div>
-            { 5 }
-        </div>
+        <PageContainer>
+            <Starter />
+        </PageContainer>
     );
 }
 
 export default Home;
+
